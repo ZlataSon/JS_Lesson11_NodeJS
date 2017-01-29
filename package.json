@@ -1,0 +1,21 @@
+{
+  "name": "js_lesson11_nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZlataSon/JS_Lesson11_NodeJS.git"
+  },
+  "author": "Zlata",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZlataSon/JS_Lesson11_NodeJS/issues"
+  },
+  "homepage": "https://github.com/ZlataSon/JS_Lesson11_NodeJS#readme"
+}
