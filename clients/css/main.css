@@ -1790,7 +1790,7 @@ span {
 /*Background*/
 
 #lesson11 {
-    background: rgba(40, 41, 71, 0.8) url("../img/bg_l11.jpg") no-repeat fixed center center;
+    background: rgba(40,116,9,0.8) url("../img/bg_l11.jpg") no-repeat fixed center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -1801,7 +1801,7 @@ span {
     margin: 55px;
     padding: 20px;
     min-height: 200px;
-    background: rgba(40, 41, 71, 0.8);
+    background: rgba(40,116,9,0.8);
     color: white;
 }
 
@@ -2120,7 +2120,8 @@ a.button:focus {
  lesson_7 jQuery
  ====================*/
 #lesson11 #todoListWrapper {
-    background: rgba(23, 32, 56, 0.9);
+    color: #880209;
+    background: rgba(249, 186, 70, 0.9);
     box-shadow: 0 2px 4px 0 rgba(255, 255, 255, 0.5), 0 25px 50px 0 rgba(255, 255, 255, 0.5);
 }
 
@@ -2146,7 +2147,7 @@ a.button:focus {
 #lesson11 #todoListWrapper #todoListWrapper {
     margin: 0 auto;
     text-align: center;
-    background-color: #172038;
+    background-color: rgba(249, 186, 70, 0.9);
     padding-bottom: 40px;
     opacity: 0.9;
 }
@@ -2175,10 +2176,11 @@ a.button:focus {
     background: none;
     padding: 10px;
     border: none;
-    margin: 10px auto;
+    margin: 7px auto;
     text-align: left;
-    font-size: 12px;
+    font-size: 13px;
     list-style: none;
+    text-shadow: none;
 }
 
 #todoList li:hover {
@@ -2186,7 +2188,7 @@ a.button:focus {
 }
 
 #todoList li.listTitle {
-    background: #444;
+    background: rgb(64, 136, 22);
     color: white;
     padding: 10px;
     text-align: center;
@@ -2239,7 +2241,7 @@ a.button:focus {
     font-size: 0.85em;
     font-weight: bold;
     text-align: center;
-    background: rgba(220, 25, 25, 0.4) url("../img/trash.png") no-repeat center center;
+    background: rgba(249, 186, 70, 0.9) url("../img/trash.png") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
