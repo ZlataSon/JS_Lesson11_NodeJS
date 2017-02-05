@@ -13,18 +13,29 @@ server.post('/load', function (request, response) {
     let td = db.get().collection('todolist');
     let data;
     td.find().toArray(function (err,doc) {
-        data = doc;
+        //data = doc;
+        //data = Object.keys(doc).map( function (k) {return doc[k];} );
+        //console.dir(doc[0]);
+        var data = doc[0] || [[],[],[],[],[],[],[],[]];
+        data = Object.keys(data).map( function (k) {return data[k];} );
+        // var i=0, data=[];
+        // for (var ob in doc[0]) {if (i<8) data.push(ob); console.dir('**'+ob); i++}
+        //data[i++]=ob;
+        //console.dir(data);
+        data.pop();
         response.json(data);
     });
 
 });
 
 server.post('/save', function (request, response) {
-    data = request.body;
 
+    data = request.body;
+    let dataForSave = Object.assign({}, data);
     let td = db.get().collection('todolist');
     td.remove({});
-    td.insert(data);
+    console.dir(dataForSave);
+    td.insert(dataForSave);
 
     response.json({status:'ok'});
 });
